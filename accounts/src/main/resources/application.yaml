@@ -11,5 +11,16 @@ spring:
   jpa:
     spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
 
+  # this is to add external configurations
+  application:
+    name:
+      accounts
+  profiles:
+    active: prod
+
+
 server:
   port: 8085
+
+
+
